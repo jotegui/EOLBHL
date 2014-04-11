@@ -1,3 +1,6 @@
-.Rproj.user
+# python compiled files
+*.pyc
+
+# Some R profile files
 .Rhistory
-.RData
+.Rproj.user
