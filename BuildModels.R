@@ -16,9 +16,6 @@ data_folder = paste(getwd(), 'data', sep='/')
 ### Get Present Conditions
 getP <- function() {
 
-    ### Data Folder (to be changed with on-the-fly download from GitHub)
-
-
     ### Load Current Condition BIOCLIM data
     setwd(paste(data_folder,"bioclim","wc2-5","wc2-5", sep="/"))
     bioclim_P1<-("./bio1.bil")
