@@ -85,8 +85,9 @@ def buildCSV(occs, file_name):
 
 if __name__ == '__main__':
     taxon_name = 'Dipteryx panamensis'
-    file_name = './data/gbif/{0}.csv'.format(taxon_name.replace(' ' ,'_'))
+    file_name = '{0}.csv'.format(taxon_name.replace(' ' ,'_'))
+    file_path = os.path.join(os.path.abspath('./'),'data','gbif',file_name)
     field_list = ['decimalLatitude','decimalLongitude','eventDate']
     
-    occs = getOccurrencesFromTaxonName(taxon_name, field_list, file_name)
+    occs = getOccurrencesFromTaxonName(taxon_name, field_list, file_path)
     print occs

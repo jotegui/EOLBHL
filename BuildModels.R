@@ -4,8 +4,10 @@ library(rgdal)
 library(maptools)
 library(sp)
 library(raster)
-system("java -version")
-library(rJava)
+#system("java -version")
+#library(rJava)
+
+data_folder = paste(getwd(), 'data', sep='/')
 
 ### Species Name
 #species_name = 'Dipteryx panamensis'
@@ -15,10 +17,10 @@ library(rJava)
 getP <- function() {
 
     ### Data Folder (to be changed with on-the-fly download from GitHub)
-    data_folder = '/home/jotegui/Desktop/NESCentBHLEOL/EOLBHL/data/'
+
 
     ### Load Current Condition BIOCLIM data
-    setwd(paste(data_folder,"bioclim/wc2-5/wc2-5", sep="/"))
+    setwd(paste(data_folder,"bioclim","wc2-5","wc2-5", sep="/"))
     bioclim_P1<-("./bio1.bil")
     bioclim_P2<-("./bio2.bil")
     bioclim_P3<-("./bio3.bil")
@@ -37,10 +39,8 @@ getP <- function() {
 ### Get Future Conditions
 getF <- function() {
 
-    data_folder = '/home/jotegui/Desktop/NESCentBHLEOL/EOLBHL/data/'
-
     ### Load Future Condition BIOCLIM data
-    setwd(paste(data_folder,"bioclim/future_bioclim", sep="/"))
+    setwd(paste(data_folder,"bioclim","future_bioclim", sep="/"))
     bioclim1<-("./cc26bi501.tif")
     bioclim2<-("./cc26bi502.tif")
     bioclim3<-("./cc26bi503.tif")
@@ -60,7 +60,6 @@ getF <- function() {
 getE <- function() {
 
     ### Load Elevation Data
-    data_folder = '/home/jotegui/Desktop/NESCentBHLEOL/EOLBHL/data/'
     setwd(paste(data_folder,"bioclim/elevation", sep="/"))
     ele <- brick("./alt.bil")
     return(ele)
@@ -69,7 +68,6 @@ getE <- function() {
 ### Get Data Points
 getDFromFile <- function(species_name) {
     ### Load GBIF points
-    data_folder = '/home/jotegui/Desktop/NESCentBHLEOL/EOLBHL/data/'
     setwd(paste(data_folder,"gbif", sep="/"))
     species_file <- paste(sub(" ", "_", species_name),"csv", sep="_corrected.")
     speciesPts <- read.csv(species_file)
@@ -110,7 +108,7 @@ runMaxent <- function(bioclim, speciesPts) {
 
 mapMaxent <- function(run, bioclim, file_name) {
     pred_map <- predict(run, bioclim)
-    setwd('/home/jotegui/Desktop/NESCentBHLEOL/EOLBHL/data/')
+    setwd(data_folder)
     save(pred_map, file=file_name)
     print("Map generated and stored in the file:")
     print(file_name)
