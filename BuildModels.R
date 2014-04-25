@@ -5,7 +5,7 @@ library(maptools)
 library(sp)
 library(raster)
 #system("java -version")
-#library(rJava)
+library(rJava)
 
 data_folder = paste(getwd(), 'data', sep='/')
 
