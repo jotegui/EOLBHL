@@ -69,7 +69,9 @@ def buildCorrectedCSV(occs, file_name):
     return
 
 if __name__ == '__main__':
-    #file_name = './data/gbif/Ara_ambiguus.csv'
-    file_name = './data/gbif/Dipteryx_panamensis.csv'
+    taxon_name = 'Dipteryx panamensis'
+    #taxon_name = 'Ara ambiguus'    
+    file_name = '{0}.csv'.format(taxon_name.replace(' ' ,'_'))
+    file_path = os.path.join(os.path.abspath('./'),'data','gbif',file_name)
     
-    cleanCSV(file_name)
+    cleanCSV(file_path)
