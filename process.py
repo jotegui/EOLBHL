@@ -6,21 +6,26 @@ from gbif_quality import *
 def run(taxon_name):
 
     # Define some variables
-    field_list = ['decimalLatitude','decimalLongitude','eventDate']
+    field_list = ['decimalLatitude','decimalLongitude','eventDate','countryCode']
 
     # Extract occurrence points (from gbif module)
     print "Extracting GBIF points"
     occs = getOccurrencesFromTaxonName(taxon_name, field_list)
-
-    # Get clean records (from gbif_quality module)
+    
     print "Cleaning GBIF points"
-    bbox = {
-        'maxlat': 18,
-        'maxlon': -73,
-        'minlat': -6,
-        'minlon': -95
-    }
-    clean_occs = cleanOccs(occs, bbox)
+    
+    # Remove incomplete records
+    occs = removeIncompleteRecords(occs)
+    
+    # Initial check to see if there are 20 or more different localities for the species
+    # To avoid unnecessary cleaning
+    countUniqueLocalities(occs)
+    
+    # Clean points with quality API, might take a while
+    clean_occs = cleanWithAPI(occs, taxon_name)
+    
+    # Second check, after cleaning to see if there are 20 or more different localities for the species
+    countUniqueLocalities(clean_occs)
 
     # Load R functions (from BuildModels library)
     print "Loading R functions"
@@ -67,7 +72,7 @@ def run(taxon_name):
     return mapMaxentPresent, mapMaxentFuture
     
 if __name__ == "__main__":
-    #taxon_name = 'Ara ambiguus'
-    taxon_name = 'Dipteryx panamensis'
+    taxon_name = 'Ara ambiguus'
+    #taxon_name = 'Dipteryx panamensis'
     
     mapPresent, mapFuture = run(taxon_name)

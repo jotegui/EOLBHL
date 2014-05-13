@@ -87,7 +87,7 @@ if __name__ == '__main__':
     taxon_name = 'Dipteryx panamensis'
     file_name = '{0}.csv'.format(taxon_name.replace(' ' ,'_'))
     file_path = os.path.join(os.path.abspath('./'),'data','gbif',file_name)
-    field_list = ['decimalLatitude','decimalLongitude','eventDate']
+    field_list = ['decimalLatitude','decimalLongitude','eventDate', 'countryCode']
     
     occs = getOccurrencesFromTaxonName(taxon_name, field_list, file_path)
     print occs
