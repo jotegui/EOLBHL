@@ -72,7 +72,7 @@ def run(taxon_name):
     return mapMaxentPresent, mapMaxentFuture
     
 if __name__ == "__main__":
-    taxon_name = 'Ara ambiguus'
-    #taxon_name = 'Dipteryx panamensis'
+    #taxon_name = 'Ara ambiguus'
+    taxon_name = 'Dipteryx panamensis'
     
     mapPresent, mapFuture = run(taxon_name)

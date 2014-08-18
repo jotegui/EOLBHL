@@ -1,0 +1,163 @@
+Extracting GBIF points
+93 records for taxonid 2947127
+0 records for taxonid 105937274
+0 records for taxonid 106940455
+0 records for taxonid 106988956
+0 records for taxonid 108602883
+0 records for taxonid 108602884
+0 records for taxonid 108768274
+0 records for taxonid 119064575
+0 records for taxonid 129993926
+0 records for taxonid 136157868
+93 records in total
+Cleaning GBIF points
+9.63345, -82.64492 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/9.63345/-82.64492/CR/Dipteryx panamensis
+9.94468, -84.15775 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/9.94468/-84.15775/CR/Dipteryx panamensis
+9.94468, -84.15775 = CR
+10.70445, -84.19218 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.70445/-84.19218/CR/Dipteryx panamensis
+10.70445, -84.19218 = CR
+10.70445, -84.19218 = CR
+10.57, -84.34889 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.57/-84.34889/CR/Dipteryx panamensis
+10.43, -84.0 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.43/-84.0/CR/Dipteryx panamensis
+9.56, -82.64 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/9.56/-82.64/CR/Dipteryx panamensis
+9.56, -82.63667 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/9.56/-82.63667/CR/Dipteryx panamensis
+9.56, -82.63667 = CR
+9.56, -82.63667 = CR
+10.62, -84.27 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.62/-84.27/CR/Dipteryx panamensis
+10.63, -84.28 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.63/-84.28/CR/Dipteryx panamensis
+10.62639, -84.27917 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.62639/-84.27917/CR/Dipteryx panamensis
+10.43, -84.03 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.43/-84.03/CR/Dipteryx panamensis
+10.42, -84.0 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.42/-84.0/CR/Dipteryx panamensis
+10.44, -83.78 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.44/-83.78/CR/Dipteryx panamensis
+10.44167, -83.78889 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.44167/-83.78889/CR/Dipteryx panamensis
+10.64, -83.73 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.64/-83.73/CR/Dipteryx panamensis
+10.64389, -83.73611 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.64389/-83.73611/CR/Dipteryx panamensis
+10.51, -83.71 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.51/-83.71/CR/Dipteryx panamensis
+10.43, -84.02 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.43/-84.02/CR/Dipteryx panamensis
+10.43333, -84.01667 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.43333/-84.01667/CR/Dipteryx panamensis
+10.64, -84.0 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.64/-84.0/CR/Dipteryx panamensis
+10.64167, -84.00417 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.64167/-84.00417/CR/Dipteryx panamensis
+10.64, -84.0 = CR
+10.7, -84.16 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.7/-84.16/CR/Dipteryx panamensis
+10.7, -84.16667 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.7/-84.16667/CR/Dipteryx panamensis
+10.7, -84.16 = CR
+0.0, 0.0 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/0.0/0.0/CR/Dipteryx panamensis
+10.41, -83.95 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.41/-83.95/CR/Dipteryx panamensis
+11.12, -84.36 = NI
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/11.12/-84.36/NI/Dipteryx panamensis
+10.41667, -83.56667 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.41667/-83.56667/CR/Dipteryx panamensis
+10.41, -83.56 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.41/-83.56/CR/Dipteryx panamensis
+10.41, -83.56 = CR
+10.41, -83.56 = CR
+10.51, -83.5 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.51/-83.5/CR/Dipteryx panamensis
+10.51667, -83.5 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.51667/-83.5/CR/Dipteryx panamensis
+10.51, -83.5 = CR
+9.45, -79.1 = PA
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/9.45/-79.1/PA/Dipteryx panamensis
+8.91667, -82.16667 = PA
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/8.91667/-82.16667/PA/Dipteryx panamensis
+8.91, -82.17 = PA
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/8.91/-82.17/PA/Dipteryx panamensis
+0.0, 0.0 = CR
+10.43, -84.03 = CR
+10.43, -84.0 = CR
+10.43, -84.0 = CR
+10.5, -83.78 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.5/-83.78/CR/Dipteryx panamensis
+9.6, -83.8 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/9.6/-83.8/CR/Dipteryx panamensis
+6.85, -77.45 = CO
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/6.85/-77.45/CO/Dipteryx panamensis
+0.0, 0.0 = CR
+9.16, -79.84 = PA
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/9.16/-79.84/PA/Dipteryx panamensis
+10.42, -84.02 = CR
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/10.42/-84.02/CR/Dipteryx panamensis
+9.17, -79.84 = PA
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/9.17/-79.84/PA/Dipteryx panamensis
+9.15472, -79.84861 = PA
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/9.15472/-79.84861/PA/Dipteryx panamensis
+9.16, -79.84 = PA
+9.16, -79.84 = PA
+7.63, -77.83 = PA
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/7.63/-77.83/PA/Dipteryx panamensis
+0.0, 0.0 = CR
+7.9, -77.4 = PA
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/7.9/-77.4/PA/Dipteryx panamensis
+9.28, -82.42 = PA
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/9.28/-82.42/PA/Dipteryx panamensis
+8.35, -77.37 = PA
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/8.35/-77.37/PA/Dipteryx panamensis
+0.0, 0.0 = PA
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/0.0/0.0/PA/Dipteryx panamensis
+0.0, 0.0 = PA
+0.0, 0.0 = PA
+0.0, 0.0 = PA
+8.88, -79.8 = PA
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/8.88/-79.8/PA/Dipteryx panamensis
+9.25, -82.38 = PA
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/9.25/-82.38/PA/Dipteryx panamensis
+9.15, -79.85 = PA
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/9.15/-79.85/PA/Dipteryx panamensis
+9.15, -79.85 = PA
+0.0, 0.0 = PA
+9.18, -79.84 = PA
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/9.18/-79.84/PA/Dipteryx panamensis
+9.18, -79.84 = PA
+9.16, -79.84 = PA
+9.16, -79.84 = PA
+8.66, -78.54 = PA
+https://jot-mol-qualityapi.appspot.com/_ah/api/qualityapi/v1/geospatial/8.66/-78.54/PA/Dipteryx panamensis
+Loading R functions
+Loading required package: raster
+Loading required package: sp
+rgdal: version: 0.8-16, (SVN revision 498)
+Geospatial Data Abstraction Library extensions to R successfully loaded
+Loaded GDAL runtime: GDAL 1.9.0, released 2011/12/29
+Path to GDAL shared files: /usr/share/gdal/1.9
+Loaded PROJ.4 runtime: Rel. 4.7.1, 23 September 2009, [PJ_VERSION: 470]
+Path to PROJ.4 shared files: (autodetected)
+Checking rgeos availability: FALSE
+ 	Note: when rgeos is not available, polygon geometry 	computations in maptools depend on gpclib,
+ 	which has a restricted licence. It is disabled by default;
+ 	to enable gpclib, type gpclibPermit()
+Generating Coordinate Pair Objects in R
+Extracting Bioclim raster stacks
+Creating Species points spatial objects
+Running MaxEnt model for present data
+Running MaxEnt model for future data
+Generating and storing model map for present data
+[1] "Map generated and stored in the file:"
+[1] "map_Dipteryx_panamensis_present.RData"
+Generating and storing model map for present data
+[1] "Map generated and stored in the file:"
+[1] "map_Dipteryx_panamensis_future.RData"
