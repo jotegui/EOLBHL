@@ -59,9 +59,9 @@ def run(taxon_name):
 
     # Run Maxent models for present and future
     print "Running MaxEnt model for present data"
-    maxentPresent = runMaxent(bioclimP, speciesPts)
+    maxentPresent = runMaxent(bioclimP, speciesPts, 'run_{0}_present.RData'.format(taxon_name.replace(" ", "_")))
     print "Running MaxEnt model for future data"
-    maxentFuture = runMaxent(bioclimF, speciesPts)
+    maxentFuture = runMaxent(bioclimF, speciesPts, 'run_{0}_future.RData'.format(taxon_name.replace(" ", "_")))
 
     # Map Maxent models
     print "Generating and storing model map for present data"
@@ -72,7 +72,7 @@ def run(taxon_name):
     return mapMaxentPresent, mapMaxentFuture
     
 if __name__ == "__main__":
-    taxon_name = 'Ara ambiguus'
-    #taxon_name = 'Dipteryx panamensis'
+    #taxon_name = 'Ara ambiguus'
+    taxon_name = 'Dipteryx panamensis'
     
     mapPresent, mapFuture = run(taxon_name)

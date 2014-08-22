@@ -1492,7 +1492,11 @@ Generating Coordinate Pair Objects in R
 Extracting Bioclim raster stacks
 Creating Species points spatial objects
 Running MaxEnt model for present data
+[1] "Model generated and stored in the file:"
+[1] "run_Ara_ambiguus_present.RData"
 Running MaxEnt model for future data
+[1] "Model generated and stored in the file:"
+[1] "run_Ara_ambiguus_future.RData"
 Generating and storing model map for present data
 [1] "Map generated and stored in the file:"
 [1] "map_Ara_ambiguus_present.RData"

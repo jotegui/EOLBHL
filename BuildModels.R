@@ -87,7 +87,7 @@ rasterPoints <- function(speciesPts) {
 }
 
 ### Build Prediction Map (a.k.a. run MaxEnt)
-runMaxent <- function(bioclim, speciesPts) {
+runMaxent <- function(bioclim, speciesPts, file_name) {
     ### Present condition MaxEnt map
     bioClim_Species<- extract(bioclim, speciesPts, method='bilinear', buffer=NULL, fun=NULL, df=TRUE)
     group <- kfold(bioClim_Species, 5)
@@ -99,7 +99,11 @@ runMaxent <- function(bioclim, speciesPts) {
     bg_train <-bg[group !=1,]
     bg_test <- bg[group ==1,]
     run<- maxent(bioclim, pres_train, a=bg, removeDuplicates=TRUE, args=c("-J"))
-    pred_map <- predict(run, bioclim)
+    #pred_map <- predict(run, bioclim)
+    setwd(data_folder)
+    save(run, file=file_name)
+    print("Model generated and stored in the file:")
+    print(file_name)
     return(run)
 }
 
